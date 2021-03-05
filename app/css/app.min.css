@@ -6257,3 +6257,14 @@ input.datetimepicker[data-color=yellow]+.bootstrap-datetimepicker-widget.dropdow
 .bootstrap-datetimepicker-widget.dropdown-black table td .btn[data-action=togglePeriod] {
   background: 0 0;
 }
+
+.phone_mock {
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.phone_mock iframe {
+  border: 10px solid #333;
+  border-radius: 15px;
+}

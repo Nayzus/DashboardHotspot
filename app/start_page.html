@@ -27,7 +27,7 @@
         <!-- Brand -->
         <div class="sidenav-header  align-items-center">
             <a class="navbar-brand" href="javascript:void(0)">
-                <img src="images/dest/logo2.png" class="navbar-brand-img" alt="...">
+                <img src="images/dest/logo.png" class="navbar-brand-img" alt="...">
             </a>
         </div>
 
@@ -40,12 +40,6 @@
                         <a class="nav-link" href="dashboard.html">
                             <i class="ni ni-tv-2 text-primary"></i>
                             <span class="nav-link-text">Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="profile.html">
-                            <i class="ni ni-chart-bar-32 text-yellow"></i>
-                            <span class="nav-link-text">Статистика</span>
                         </a>
                     </li>
                 </ul>
@@ -63,13 +57,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="map.html">
+                        <a class="nav-link active" href="start_page.html">
                             <i class="ni ni-paper-diploma text-primary"></i>
                             <span class="nav-link-text">Стартовая страница</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="setting.html">
+                        <a class="nav-link" href="setting.html">
                             <i class="ni ni-ui-04 text-default"></i>
                             <span class="nav-link-text">Настройка точки</span>
                         </a>
@@ -153,12 +147,12 @@
             <div class="header-body">
                 <div class="row align-items-center py-4">
                     <div class="col-lg-6 col-7">
-                        <h6 class="h2 text-white d-inline-block mb-0">Настройка точки</h6>
+                        <h6 class="h2 text-white d-inline-block mb-0">Стартовая страница</h6>
                         <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
                             <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
                                 <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
                                 <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Настройка точки</li>
+                                <li class="breadcrumb-item active" aria-current="page">Стартовая страница</li>
                             </ol>
                         </nav>
                     </div>
@@ -171,56 +165,42 @@
     <!-- Page content -->
     <div class="container-fluid mt--6">
         <div class="row ">
-            <div class="col-xl-12">
+            <div class="col-xl-5">
+                <div class="card-wrapper">
+                    <!-- Sizes -->
+                    <div class="card">
+                        <!-- Card header -->
+                        <div class="card-header ">
+                           <div class="row">
+                               <div class="col">
+                                   <h3 class="mb-0">Предварительный просмотр</h3>
+                               </div>
+                               <div class="col text-right">
+                                   <a href="#!" class="btn btn-sm btn-primary">Обновить <i class="fa fa-refresh" aria-hidden="true"></i></a>
+                               </div>
+                           </div>
+                        </div>
+                        <!-- Card body -->
+                        <div class="card-body d-flex justify-content-center">
+                            <div class="phone_mock">
+                                <iframe src="http://orionnet.ru/" frameborder="0" width="360" height="600"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-7">
                 <div class="card-wrapper">
                     <!-- Sizes -->
                     <div class="card">
                         <!-- Card header -->
                         <div class="card-header">
-                            <h3 class="mb-0">Настройки точки доступа WiFi</h3>
+                            <h3 class="mb-0">Настройка стартовой страницы</h3>
                         </div>
                         <!-- Card body -->
                         <div class="card-body">
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <div class="form-group">
-                                        <label class="form-control-label" for="exampleDatepicker">Название точки WiFi</label>
-                                        <div class="input-group input-group-merge">
 
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
-                                            </div>
-                                            <input class="form-control" placeholder="OrionFreeWifi" id="exampleDatepicker" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="form-group">
-                                        <label class="form-control-label" for="adressWifi">Адрес точки WiFi</label>
-                                        <div class="input-group input-group-merge">
-
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                            </div>
-                                            <input class="form-control" placeholder="ул. Вейнбаума, 21 , г. Красноярск" id="adressWifi" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="form-group">
-                                        <label class="form-control-label" for="adressWifi">Ограничение скорости посетителям WiFi</label>
-                                        <div class="input-group input-group-merge">
-
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="fa fa-cloud-download" aria-hidden="true"></i></span>
-                                            </div>
-                                            <input class="form-control" placeholder="100 мБ/с" id="adressWifi" max="100" min="1" type="number">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr class="my-4">
-                            <button class="btn btn-primary">Сохранить</button>
                         </div>
                     </div>
 
